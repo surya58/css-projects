@@ -1,0 +1,16 @@
+.section-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.buy-btn {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
