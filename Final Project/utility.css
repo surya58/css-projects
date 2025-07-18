@@ -1,0 +1,79 @@
+.container {
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 0.5rem;
+}
+
+.section{
+    margin-top: 5rem;
+}
+
+/* xs - extra small devices (phones, 475px and up) */
+@media (min-width: 475px) {
+  .container{
+    max-width: 475px;
+  }
+}
+
+/* sm - small devices (landscape phones, 640px and up) */
+@media (min-width: 640px) {
+   .container{
+    max-width: 640px;
+  }
+}
+
+/* md - medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+   .container{
+    max-width: 768px;
+  }
+}
+
+/* lg - large devices (small laptops, 1024px and up) */
+@media (min-width: 1024px) {
+   .container{
+    max-width: 1024px;
+  }
+
+  .section{
+    margin-top: 10rem;
+  }
+}
+
+/* xl - extra large devices (desktops, 1280px and up) */
+@media (min-width: 1280px) {
+   .container{
+    max-width: 1280px;
+  }
+}
+
+/* 2xl - ultra wide screens (1536px and up) */
+@media (min-width: 1536px) {
+   .container{
+    max-width: 1536px;
+  }
+}
+
+.btn {
+  background-color: var(--clr-white);
+  color: var(--clr-dark);
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 500;
+  line-height: 1.75rem;
+}
+
+.btn:hover{
+    background-color: var(--clr-hover);
+}
+
+.btn:focus-visible{
+    outline: solid var(--clr-text);
+}
+
+.btn.small {
+  padding: 0.3rem 0.8rem;
+  font-size: 0.9rem;
+}

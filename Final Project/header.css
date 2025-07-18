@@ -1,0 +1,153 @@
+.site-header {
+  background-color: var(--clr-accent);
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo img {
+  height: 48px;
+  width: auto;
+}
+
+.site-title {
+  display: none;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+.nav {
+  display: none;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-icons {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.nav-icons li a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-left: 1px solid #333;
+  padding-left: 1rem;
+}
+
+.sign-in {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.enter-app {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hamburger menu */
+.hamburger {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Media Queries - Mobile First */
+@media (min-width: 475px) {
+  .site-title {
+    display: none;
+  }
+}
+
+@media (min-width: 640px) {
+  .site-title {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav {
+    display: flex;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .site-title {
+    display: inline;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .site-title {
+    font-size: 1.2rem;
+  }
+
+  .enter-app {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .site-title {
+    font-size: 1.4rem;
+  }
+
+  .logo img {
+    height: 64px;
+  }
+
+  .nav-icons li a {
+    font-size: 1rem;
+  }
+
+  .sign-in {
+    font-size: 1rem;
+  }
+
+  .enter-app {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .site-title {
+    font-size: 1.6rem;
+  }
+
+  .logo img {
+    height: 72px;
+  }
+
+  .enter-app {
+    padding: 0.6rem 1.2rem;
+    font-size: 1.1rem;
+  }
+}

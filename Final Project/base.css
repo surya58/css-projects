@@ -1,0 +1,62 @@
+:root {
+  --font-primary: 'Inter', sans-serif;
+  --font-secondary: 'Source Code Pro', monospace;
+
+  --clr-dark: oklch(14.7% 0.004 49.25);
+  --clr-accent: oklch(27.4% 0.006 286.033);
+  --clr-white: oklch(96.8% 0.007 247.896);
+  --clr-text: oklch(98.5% 0 0);
+  --clr-hover: oklch(92.9% 0.013 255.508);
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+.text{
+  color: var(--clr-text);
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: #1e1e1e;
+  color: #fff;
+  line-height: 1.6;
+}
+
+img,
+picture,
+svg,
+video,
+canvas{
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  letter-spacing: -0.025em
+}
+
+
+
