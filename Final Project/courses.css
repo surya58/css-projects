@@ -38,6 +38,7 @@
   font-size: 1rem;
   color: #ddd;
   margin-bottom: 1rem;
+  font-family: var(--font-secondary);
 }
 
 .course-desc {

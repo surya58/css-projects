@@ -1,7 +1,7 @@
 .faq-section {
-  /* background-color: #0f172a; */
-  color: #d1d5db;
-  padding: 4rem 1rem;
+  max-width: 75rem;
+  margin: 4rem auto;
+  padding: 0 1rem; 
 }
 
 .faq-container {
@@ -31,6 +31,7 @@
 
 .faq-subtitle {
   font-size: 0.95rem;
+  font-family: var(--font-secondary);
   color: #94a3b8;
   line-height: 1.6;
   max-width: 60ch;
@@ -46,19 +47,18 @@
   background-color: var(--clr-accent);
   padding: 1.5rem;
   border-radius: 8px;
-  font-family: monospace;
+  font-family: var(--font-primary);
 }
 
 .faq-card h4 {
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: #f3f4f6;
+  font-family: var(--font-secondary);
 }
 
 .faq-card p {
   font-size: 0.9rem;
-  color: #d1d5db;
   line-height: 1.5;
 }
 

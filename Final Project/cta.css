@@ -1,6 +1,9 @@
 .purpose-section {
   color: #e5e7eb;
-  padding: 4rem 1rem;
+  /* color: #d1d5db; */
+  max-width: 75rem;
+  margin: 4rem auto;
+  padding: 0 1rem; 
   text-align: center;
 }
 

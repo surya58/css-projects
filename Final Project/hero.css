@@ -1,8 +1,8 @@
 .hero {
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 75rem;
+  margin: 4rem auto;
+  padding: 0 1rem; 
   text-align: center;
-  padding-top: 2rem;
 }
 
 .hero-images {
@@ -27,6 +27,7 @@
 
 .subheading {
   font-size: 1rem;
+  font-family: var(--font-secondary);
   color: #94a3b8;
   margin-bottom: 1.5rem;
   max-width: 700px;
@@ -35,6 +36,7 @@
 }
 
 .description {
+  font-family: var(--font-secondary);
   font-size: 1rem;
   color: #94a3b8;
   max-width: 700px;

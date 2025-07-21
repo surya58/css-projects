@@ -1,17 +1,15 @@
 .testimonials-section {
-  padding: 4rem 1rem;
-  color: #d1d5db;
+  max-width: 75rem;
+  margin: 4rem auto;
+  padding: 0 1rem; 
 }
 
 .testimonials-section .container {
-  max-width: 1200px;
-  margin: 0 auto;
   text-align: center;
-}
+} 
 
 .test-text {
   font-size: 2rem;
-  color: #f3f4f6;
   margin-bottom: 1rem;
 }
 
@@ -19,6 +17,7 @@
   font-family: var(--font-secondary);
   max-width: 60ch;
   text-align: center;
+  color: #94a3b8;
 }
 
 .heading {
@@ -27,7 +26,6 @@
 
 .section-label {
   text-transform: uppercase;
-  color: #94a3b8;
   font-size: 0.9rem;
   margin-bottom: 0.5rem;
   text-align: start;
@@ -35,7 +33,6 @@
 
 .heading .label {
   text-transform: uppercase;
-  color: #94a3b8;
   font-size: 0.875rem;
   text-align: start;
   margin-bottom: 0.5rem;
@@ -45,13 +42,11 @@
 .heading h2 {
   font-size: 2rem;
   font-weight: 700;
-  color: #f3f4f6;
   margin-bottom: 0.5rem;
 }
 
 .heading .subtext {
   font-size: 0.95rem;
-  color: #94a3b8;
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.6;
@@ -78,14 +73,13 @@
 }
 
 .testimonial-card p {
+  font-family: var(--font-primary);
   font-size: 0.9rem;
-  color: #d1d5db;
   margin-bottom: 1rem;
 }
 
 .testimonial-card span {
   font-size: 0.85rem;
-  color: #9ca3af;
 }
 
 /* Responsive Breakpoints */
